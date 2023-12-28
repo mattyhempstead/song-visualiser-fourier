@@ -116,7 +116,7 @@ while True:
 
 	text = "Time: " + str(round(songTime, 2))
 	text = font.render(str(text), True, (0,0,0))
-	screen.blit(text, [50, 50])
+	screen.blit(text, [20, 20])
 
 	pygame.display.flip()
 
